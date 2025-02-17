@@ -1,0 +1,9 @@
+{
+    "compatibilityLevel": "JAVA_8",
+    "package": "dev.talkingpanda.sleepvote.mixin",
+    "mixins": [],
+    "client": [],
+    "server": [
+        "MixinSleep"
+    ]
+}
