@@ -20,7 +20,7 @@ import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(WorldServer.class)
 public abstract class MixinSleep extends World implements IThreadListener {
-    private final double REQUIREDPLAYERS = 1;
+    private final double REQUIREDPLAYERS = 0.3;
 
     @Shadow private boolean allPlayersSleeping;
 
